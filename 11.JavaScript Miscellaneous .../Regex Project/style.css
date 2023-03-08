@@ -1,0 +1,27 @@
+
+
+body {
+     font-family: Helvetica;
+     color: green;    
+}
+.form-container {
+     margin: 1rem 2rem;
+}
+.form-control {
+     margin: 1rem 0;
+}
+
+.xalert {
+     color: red;
+     font-weight: lighter;
+     font-size: .8rem;
+     font-style: italic;
+     font-family: IBM plex mono;
+}
+.btn {
+     font-weight: bold;
+     padding: .5rem 1rem;
+     border: 2px solid green;
+     border-radius: 10px;
+     margin-left: 5rem;
+}

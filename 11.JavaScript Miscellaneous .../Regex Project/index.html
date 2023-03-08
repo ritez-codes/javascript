@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+          <h1 style="text-align: center; font-family: IBM plex mono ">Developer Desk</h1>
+     </header>
+
+     <main>
+          <div class="form-container">
+               <form class="form-cls">
+                    <div class="form-control">
+                         <label for="name">Name</label>
+                         <br>
+                         <input autocomplete="off" type="text" id="name">
+                         <div class="xalert alert"></div>
+                    </div>
+
+                    <div class="form-control">
+                         <label for="email">Email</label>
+                         <br>
+                         <input autocomplete="off" type="email" id="email">
+                         <div class="xalert alert1"></div>
+                    </div>
+
+                    <div class="form-control">
+                         <label for="phone">Phone</label>
+                         <br>
+                         <input autocomplete="off" type="tel" id="phone">
+                         <div class="xalert alert2"></div>
+                    </div>
+                    <div class="form-control">
+                         <label for="profession">Enter Your Profession</label>
+                         <br>
+                         <select name="profession" id="profession">
+                              <option value="1">Software Developer</option>
+                              <option value="2">Full Stack Developer</option>
+                              <option value="3">Web3 Developer</option>
+                              <option value="4">Devops</option>
+                         </select>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+               </form>
+          </div>
+     </main>
+</body>
+<script src="./regex-project.js"></script>
+</html>
